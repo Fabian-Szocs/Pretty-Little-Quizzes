@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+background: #2980b9;  
+background: -webkit-linear-gradient(to right, #2c3e50, #2980b9); 
+background: linear-gradient(to right, #2c3e50, #2980b9); 
+
+
+}
+
+header {
+  
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: white;
+ 
+
+}
+
+
+header p {
+  cursor: pointer;
+  font-size: 70px;
+  font-family: 'Monsieur La Doulaise', cursive;
+}
+
+.button{
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Vollkorn', serif;
+  font-weight: lighter;
+}
+
+.box{
+  border: 2px solid rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-left: 40px;
+  background-color: #6c90a8;
+  box-shadow: 0px 0px 10px #fff;
+  max-width: 100%;
+  
+}
+.box:hover{
+  box-shadow: 0px 0px 15px #fff;
+}
+
+.box img{
+  width: 300px;
+  height: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+  
+}
+
+.season{
+  font-size: 30px;
+  margin-left: 100px;
+  margin-right: 60px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Vollkorn', serif;
+  font-weight: 5px;
+
+}
+
+.container{
+  display: flex;
+  width: 300px;
+  margin: 100px 50px;
+}
